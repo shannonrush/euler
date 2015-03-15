@@ -28,5 +28,12 @@ f <- PrimeFactors(13195)
 answer <- tail(PrimeFactors(600851475143), 1)
 # [1] 6857
 
+# O(sqrt(n) * sqrt(n)) = O(n)
 
+
+
+
+       
+
+        
 
