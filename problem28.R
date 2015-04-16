@@ -13,7 +13,6 @@
 
 SpiralDiag <- function(n) {
     sum <- 1
-    p <- 1
     by <- 2
     start <- 1
     for (i in 1:floor(n/2)) {
@@ -27,7 +26,7 @@ SpiralDiag <- function(n) {
 }
 
 # test
-# SpiralDiag(5)==101
+SpiralDiag(5)==101
 
 # Unit: milliseconds
 # expr      min       lq     mean   median       uq      max neval
