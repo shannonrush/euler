@@ -27,4 +27,6 @@ CountSums <- function(n) {
 
 # a <- CountSums(100)
 
-
+# Unit: milliseconds
+# expr      min       lq     mean  median       uq     max neval
+# CountSums(100) 21.82504 22.83801 23.12964 23.1403 23.40845 24.4138    10
