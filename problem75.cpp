@@ -42,27 +42,3 @@ NumericVector PTCounts(int L) {
     return counts;
 }
 
-// OneRightTriangle <- function(L) {
-//     counts <- data.frame(l=c(),count=c())
-//     for (m in 2:ceiling(sqrt(L/2))) {
-//         for (n in 1:(m-1)) {
-//             print(c(m,n))
-//             long a = m * m + n * n;
-            //long b = m * m - n * n;
-            //long c = 2 * m * n;
-//             if (m-n%%2!=0 && gcd(m,n)==1) {
-//                 l <- a+b+c
-//                 while (l<=L) {
-//                     print(l)
-//                     if (l %in% counts$l) {
-//                         row <- counts[counts$l==l,]
-//                         row$count <- row$count + 1
-//                     } else {
-//                         counts <- rbind(counts, data.frame(l=l, count=1))
-//                     }
-//                     l <- l+a+b+c
-//                 }
-//             }
-//         }
-//     }
-

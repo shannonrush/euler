@@ -27,13 +27,14 @@ DigFactChain <- function() {
     sum(sapply(1:999999, ChainLength)==60)
 }
 
+
+
+
+
 # test
-# ChainLength(145)==1
-# ChainLength(169)==3
-# ChainLength(69)==5
+# FactChainLength(145)==1
+# FactChainLength(169)==3
+# FactChainLength(69)==5
+IntToDigits(544)
 
 #a <- DigFactChain()
-
-# Unit: seconds
-# expr      min       lq     mean   median       uq      max neval
-# DigFactChain() 18.33754 18.33754 18.33754 18.33754 18.33754 18.33754     1
