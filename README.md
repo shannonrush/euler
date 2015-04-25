@@ -1,1 +1,1 @@
-Project Euler solutions in R
+Project Euler solutions in R. And some C++.
