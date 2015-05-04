@@ -76,4 +76,4 @@ NextU <- function(current) {
 
 # Monopoly(6)=="102400"
 
-a<-Monopoly(4)
+#a<-Monopoly(4)
