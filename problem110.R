@@ -15,7 +15,7 @@ DiophantineII <- function() {
     ans <- Inf
     for (i in 1:length(exp)) {
         e <- unlist(exp[[i]])
-        if (Reduce("*",e)>L) {
+        if (prod(e)>L) {
             e <- (e-1)/2
             possible <- prod(sapply(1:14, function(x) primes[x]^(e[x])))
             if (possible<ans) ans <- possible
@@ -45,8 +45,9 @@ Exponents <- function(L) {
     out
 }
 
+a <- DiophantineII()
+
 # Unit: seconds
 # expr      min       lq     mean   median       uq      max neval
 # DiophantineII() 11.85789 11.85789 11.85789 11.85789 11.85789 11.85789     1
 
-a <- DiophantineII()
